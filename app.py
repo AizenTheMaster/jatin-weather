@@ -9,8 +9,8 @@ with open('placement.sav', "rb") as file:
     model = pickle.load(file)
 
 # Streamlit UI
-st.set_page_config(page_title="💼 Salary Predictor by Himanshu", layout="centered")
-st.title("💼 Salary Prediction App - By Himanshu")
+st.set_page_config(page_title="💼 Salary Predictor by Jatin", layout="centered")
+st.title("💼 Salary Prediction App - By Jatin")
 
 st.markdown("Fill the student/professional profile to predict **expected salary** (XGBoost, 10 features).")
 
